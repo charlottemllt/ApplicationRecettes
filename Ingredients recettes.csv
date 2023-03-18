@@ -1,6 +1,6 @@
-﻿Nom de la recette;Nombre de personnes;Tag;Ingrédients
-Salade César;2;Salade;"""batavia (g)"": 40, ""poulet (g)"": 200"
-Bowl Poulet;2;;"""avocat (pièce)"": 1, ""maïs (g)"": 100, ""poulet (filets)"": 2"
-Tex Mex;2;;"""riz (g)"": 180, ""haricots rouges (boîte)"": 1, ""poulet (g)"": 200"
-Galette d'épeautre;2;Végétarien;{'galette d'épeautre': 2, 'poireau': 1 pièce}
-Spaghetti aux lardons et au poireau;2;Pâtes;{'spaghetti': 180g, 'lardons': 100g}
+﻿ID recette;Nom de la recette;Nombre de personnes;Tag;Ingrédients
+1;Salade César;2;Salade;"""batavia (g)"": 40, ""poulet (g)"": 200"
+2;Bowl Poulet;2;;"""avocat (pièce)"": 1, ""maïs (g)"": 100, ""poulet (filets)"": 2"
+3;Tex Mex;2;;"""riz (g)"": 180, ""haricots rouges (boîte)"": 1, ""poulet (g)"": 200"
+4;Galette d'épeautre;2;Végétarien;"""galette d'épeautre"": 2, ""poireau (pièce)"": 1"
+5;Spaghetti aux lardons et au poireau;2;Pâtes;"""spaghetti (g)"": 180, ""lardons (g)"": 100"
