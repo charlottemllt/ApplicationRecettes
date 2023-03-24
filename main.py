@@ -14,7 +14,10 @@ def recettes_to_ingredients(recettes: list):
     return ingredients
 
 def main():
-    ingredients = recettes_to_ingredients(['Salade César', 'Tex Mex'])
+    print(list(range(5)))
+    ingredients = recettes_to_ingredients(
+        ["Salade César", "Tex Mex", "Bowl Poulet", "Galette d'épeautre",
+         "Spaghetti aux lardons et au poireau"])
     print(ingredients)
     return 0
 

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<title xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta http-equiv="refresh" content="10">
+        <title>Results</title>
+    </head>
+    <body>
+        <h1>Log file ...</h1>
+        <script>
+           // function for adjusting iframe height to log size
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+          </script>
+        <iframe src="{{ url_for('results') }}" frameborder="0" style="overflow:hidden;width:100%" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+    </body>
+</html>

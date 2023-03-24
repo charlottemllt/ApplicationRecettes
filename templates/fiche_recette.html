@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Recette : {{recipe_name}}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <br>
+        <h4> Pour préparer un(e) {{recipe_name}} pour 2 personnes, vous aurez besoin de :</h4>
+        <h4>{{ingredients}}</h4>
+        <ul>
+            {% for ing in ingredients %}
+            <li>{{ ing }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
